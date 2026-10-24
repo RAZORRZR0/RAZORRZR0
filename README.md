@@ -1,4 +1,4 @@
-## Hi, I'm RAZORRZR0
+## Hi, I'm RAZORRZR
 
 CS graduate working on **reverse engineering and game modding**. I mostly write x64 ASI plugins for *GTA San Andreas: The Definitive Edition* and tools for *Tekken*: find the engine code by byte signature, hook it, and fix or extend what the shipped game does.
 
