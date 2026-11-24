@@ -1,10 +1,14 @@
 ## Hi, I'm RAZORRZR
 
-Software engineer (fresher) working on **backend + AI** and **systems / reverse engineering**. I build Python services with ML models behind them, and in my spare time I reverse engineer games: x64 and arm64 plugins for *GTA San Andreas: The Definitive Edition* and tools for *Tekken*, found by byte signature, hooked, and fixed or extended. My Android mod patches have **11,000+ downloads**.
+Software engineer (fresher) working on **backend + AI** and **systems / reverse engineering**. I build Python services with ML models behind them and real-time Node.js apps, and in my spare time I reverse engineer games: x64 and arm64 plugins for *GTA San Andreas: The Definitive Edition* and tools for *Tekken*, found by byte signature, hooked, and fixed or extended. My Android mod patches have **11,000+ downloads**.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
@@ -20,6 +24,7 @@ Software engineer (fresher) working on **backend + AI** and **systems / reverse 
 | Project | What it does | Stack |
 |---|---|---|
 | [bus-safety-ai](https://github.com/RAZORRZR0/bus-safety-ai) | AI video monitoring for city buses: detects violence (81% accuracy, 0.81 F1) and reserved-seat misuse, raises alerts, scores each bus, route and timeslot, and keeps a tamper-evident audit trail. JWT + 2FA, role-based access, 20 tests in CI | FastAPI, PyTorch, YOLO, SQLModel, Docker, GitHub Actions |
+| [Todo_App](https://github.com/RAZORRZR0/Todo_App) · [**live demo**](https://todo-notes-i6tx.onrender.com) | Collaborative checklist notes: real-time sync between users over Socket.IO, optimistic-locking conflict detection (409 + latest version instead of lost writes), read/write sharing, image uploads. Built during an internship at NHPC. 10 tests in CI | Node.js, Express 5, MongoDB, Socket.IO, JWT, Render |
 | [AIPONT-Realme-SmartTV-Remote](https://github.com/RAZORRZR0/AIPONT-Realme-SmartTV-Remote) | Android remote for Realme / Android TVs over the IR blaster or Wi-Fi (Android TV Remote v2). No ads, no tracking | Kotlin, Jetpack Compose |
 
 ### GTA San Andreas: The Definitive Edition (PC)
