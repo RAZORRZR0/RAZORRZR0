@@ -1,16 +1,26 @@
 ## Hi, I'm RAZORRZR
 
-CS graduate working on **reverse engineering and game modding**. I mostly write x64 ASI plugins for *GTA San Andreas: The Definitive Edition*, port them to the game's Android release, and build tools for *Tekken*: find the engine code by byte signature, hook it, and fix or extend what the shipped game does.
+Software engineer (fresher) working on **backend + AI** and **systems / reverse engineering**. I build Python services with ML models behind them, and in my spare time I reverse engineer games: x64 and arm64 plugins for *GTA San Andreas: The Definitive Edition* and tools for *Tekken*, found by byte signature, hooked, and fixed or extended. My Android mod patches have **11,000+ downloads**.
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
 ![Android arm64](https://img.shields.io/badge/Android-arm64-34A853?style=flat-square&logo=android&logoColor=white)
 ![Unreal Engine 4](https://img.shields.io/badge/Unreal_Engine_4-0E1128?style=flat-square&logo=unrealengine&logoColor=white)
 ![Direct3D 11/12](https://img.shields.io/badge/Direct3D-11%20%2F%2012-107C10?style=flat-square)
 ![Windows x64](https://img.shields.io/badge/Windows-x64-0078D4?style=flat-square)
 ![Reverse engineering](https://img.shields.io/badge/Reverse-engineering-B22222?style=flat-square)
+
+### Software engineering
+
+| Project | What it does | Stack |
+|---|---|---|
+| [bus-safety-ai](https://github.com/RAZORRZR0/bus-safety-ai) | AI video monitoring for city buses: detects violence (81% accuracy, 0.81 F1) and reserved-seat misuse, raises alerts, scores each bus, route and timeslot, and keeps a tamper-evident audit trail. JWT + 2FA, role-based access, 20 tests in CI | FastAPI, PyTorch, YOLO, SQLModel, Docker, GitHub Actions |
+| [AIPONT-Realme-SmartTV-Remote](https://github.com/RAZORRZR0/AIPONT-Realme-SmartTV-Remote) | Android remote for Realme / Android TVs over the IR blaster or Wi-Fi (Android TV Remote v2). No ads, no tracking | Kotlin, Jetpack Compose |
 
 ### GTA San Andreas: The Definitive Edition (PC)
 
@@ -26,7 +36,7 @@ CS graduate working on **reverse engineering and game modding**. I mostly write 
 
 | Project | What it does | Release |
 |---|---|---|
-| [gtasa-de-morphe-patches](https://github.com/RAZORRZR0/gtasa-de-morphe-patches) | Morphe patches that add the AML mod loader and the PC mod ports to the Android game. No PC or root needed | ![](https://img.shields.io/github/v/release/RAZORRZR0/gtasa-de-morphe-patches?style=flat-square&label=) |
+| [gtasa-de-morphe-patches](https://github.com/RAZORRZR0/gtasa-de-morphe-patches) | Morphe patches that add the AML mod loader and the PC mod ports to the Android game. No PC or root needed. **11,000+ downloads** | ![](https://img.shields.io/github/v/release/RAZORRZR0/gtasa-de-morphe-patches?style=flat-square&label=) |
 | [GTASA-DE-Android-ModLoader](https://github.com/RAZORRZR0/GTASA-DE-Android-ModLoader) | The mods behind those patches: AML for arm64, plus ports of GTA_Prop_Fix, ProjectPropsDE, CLEO, Pak Loader and Loading Music | – |
 
 ### Tekken
@@ -39,7 +49,6 @@ CS graduate working on **reverse engineering and game modding**. I mostly write 
 
 | Project | What it does | Release |
 |---|---|---|
-| [AIPONT-Realme-SmartTV-Remote](https://github.com/RAZORRZR0/AIPONT-Realme-SmartTV-Remote) | Android remote for Realme / Android TVs, over the IR blaster or Wi-Fi (Android TV Remote v2). Jetpack Compose, no ads, no tracking | ![](https://img.shields.io/github/v/release/RAZORRZR0/AIPONT-Realme-SmartTV-Remote?style=flat-square&label=) |
 | [Deadlock-mods-collection](https://github.com/RAZORRZR0/Deadlock-mods-collection) | *Fork.* Panorama HUD/UI mods for Valve's Deadlock, with a builder that merges the selected mods into one VPK | – |
 
 ### Contact
